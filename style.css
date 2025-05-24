@@ -1,0 +1,51 @@
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+#new-quote {
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+#new-quote:hover {
+  opacity: 0.9;
+}
+
+#quote-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#quote-text {
+  font-size: 1.5rem;
+  margin: 20px 0 10px;
+}
+
+#quote-author {
+  font-size: 1.2rem;
+  font-style: italic;
+}
